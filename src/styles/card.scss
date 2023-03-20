@@ -1,0 +1,45 @@
+.card {
+    color: #FFFFFF;
+    flex-basis: 30%;
+    height: 340px;
+
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+
+    display: grid;
+    align-items: end;
+
+
+
+    .imgCard {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+
+
+
+        text-align: center;
+        margin: auto;
+        display: flex;
+    }
+
+    .titleCard {
+        font-size: 18px;
+        position: absolute;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        vertical-align: bottom;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+        height: 255px;
+    }
+
+
+}

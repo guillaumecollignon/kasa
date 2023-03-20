@@ -1,0 +1,52 @@
+.error {
+    text-align: center;
+    color: #FF6060;
+    margin-bottom: 159px;
+
+    .error404 {
+        font-size: 288px;
+        margin: 0;
+    }
+
+    .errorMessage {
+        font-size: 36px;
+    }
+
+    .backLink {
+        text-decoration: none;
+        font-size: 18px;
+        color: #FF6060;
+
+    }
+
+    .backLink:hover {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .error {
+        margin-block: 112px;
+
+        .error404 {
+            font-size: 96px;
+        }
+
+        .errorMessage {
+            font-size: 18px;
+        }
+
+        .backLink {
+            text-decoration: none;
+            font-size: 14px;
+            color: #FF6060;
+
+        }
+
+        .backLink:hover {
+            text-decoration: underline;
+        }
+    }
+
+}

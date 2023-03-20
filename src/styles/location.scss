@@ -1,0 +1,189 @@
+.locationPage {
+    margin-inline: 4rem;
+    color: #FF6060;
+}
+
+.locationName {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.locationLocalisation {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.photoGalerie {
+    border-radius: 25px;
+    margin-bottom: 32px;
+}
+
+.photoGalerie img {
+    object-fit: cover;
+
+}
+
+.locationHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+
+}
+
+.informationHost {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.host {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hostName {
+
+    font-size: 18px;
+    font-weight: 500;
+    width: min-content;
+    text-align: right;
+
+}
+
+.hostPicture {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.hostPicture img {
+    object-fit: cover;
+}
+
+.tag {
+    color: #FFFFFF;
+    background-color: #FF6060;
+    margin-right: 2rem;
+    border-radius: 10px;
+    padding: 3px 40px 3px 40px;
+
+    font-size: 14px;
+}
+
+.locationInformation {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+
+}
+
+.locationAccordion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    gap: 4rem;
+
+    .slotAccordion {
+        width: 50%;
+
+        .equipment {
+            margin: 0;
+        }
+    }
+
+
+}
+
+.locationPage {
+
+    z-index: -1;
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .locationPage {
+        margin-inline: 1rem;
+
+        .locationHeader {
+            flex-direction: column;
+
+            .informationHost {
+                flex-direction: row-reverse;
+                align-items: center;
+                margin-top: 1rem;
+
+                .hostName {
+
+                    font-size: 12px;
+
+                }
+
+                .hostPicture {
+                    width: 32px;
+                    height: 32px;
+
+                }
+
+
+            }
+
+
+        }
+
+    }
+
+    .locationName {
+        font-size: 18px;
+    }
+
+    .locationAccordion {
+
+        flex-direction: column;
+        gap: 0;
+
+        height: min-content;
+
+        .slotAccordion {
+            width: 100%;
+
+            .equipment {
+                margin: 0;
+            }
+        }
+
+        .accordion {}
+
+    }
+
+
+
+
+
+
+    .locationLocalisation {
+        font-size: 14px;
+    }
+
+    .tag {
+
+        margin-right: 1rem;
+        border-radius: 5px;
+        padding: 3px 10px 3px 10px;
+
+        font-size: 10px;
+    }
+
+}

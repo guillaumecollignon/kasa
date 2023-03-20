@@ -1,0 +1,26 @@
+.footer {
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    font-size: 24px;
+    padding: 66px 0 29px 0;
+}
+
+.footerLogo {
+    display: flex;
+    flex-direction: row;
+    width: 122px;
+    height: 40px;
+    margin-bottom: 40px;
+    align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        font-size: 12px;
+    }
+}

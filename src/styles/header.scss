@@ -1,0 +1,45 @@
+.header {
+
+    width: max;
+    height: 128px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding-inline: 4rem;
+
+    img {
+        height: 62px;
+    }
+
+    a {
+        color: #FF6060;
+        font-size: 24px;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 48px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+
+        padding-inline: 1rem;
+        height: 64px;
+
+        img {
+            height: 43px;
+        }
+
+        a {
+            font-size: 12px;
+            margin-left: 24px;
+            text-transform: uppercase;
+        }
+    }
+}
