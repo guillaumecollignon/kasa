@@ -1,8 +1,5 @@
 
 import "../styles/stars.scss"
-//import React, { useState } from "react";
-//import PropTypes from 'prop-types'
-
 
 function Stars(props) {
 
@@ -19,10 +16,5 @@ function Stars(props) {
 
 
 }
-/*
-Card.propTypes = {
-  titre: PropTypes.string,
-}*/
-
 
 export default Stars

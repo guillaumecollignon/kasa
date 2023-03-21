@@ -34,7 +34,6 @@ function Location() {
 
     <div className="locationPage">
       <Slideshow cover={selectedFlat.cover} pictures={selectedFlat.pictures} />
-
       <div className="locationHeader">
         <div className="informationLocation">
           <h2 className="locationName">{selectedFlat.title}</h2>
@@ -51,7 +50,6 @@ function Location() {
           <div className="stars">
             {starsArray.map((starNumber, index) => (<Stars key={index} number={starNumber} rating={selectedFlat.rating} />))}
           </div>
-
         </div>
       </div>
       <div className="locationAccordion">
@@ -60,10 +58,7 @@ function Location() {
         </div>
         <div className="slotAccordion">
           <Accordion className="accordion__Equipments" header="Équipements" body={selectedFlat.equipments.map((equipments, index) => (<p key={index} className="equipment">{equipments}</p>))} />
-
         </div>
-
-
       </div>
     </div>
   )

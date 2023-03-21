@@ -67,6 +67,7 @@
         width: 100%;
         text-align: center;
         bottom: 25px;
+        visibility: display;
     }
 }
 
@@ -80,8 +81,7 @@
             padding-inline: 1rem;
 
             .marquePage {
-                font-size: 12px;
-                bottom: 1rem;
+                visibility: hidden;
             }
         }
     }

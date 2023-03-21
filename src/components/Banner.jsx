@@ -7,10 +7,6 @@ function Banner(props) {
 
       <h1 className="slogan">{props.slogan}</h1>
 
-
-
-
-
     </div>
   )
 }

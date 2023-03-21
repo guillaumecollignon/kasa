@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom'
 import "../styles/card.scss"
-//import PropTypes from 'prop-types'
-
 
 function Card(props) {
 
